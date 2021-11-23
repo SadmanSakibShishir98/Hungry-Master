@@ -112,9 +112,8 @@ const showMealDetailsDiv= data => {
 
 
 
-
 const getMealDetails = mealID => {
-    // Clear the Meal Details Section For Every Single New Search
+  
     const mealDetailsSection = document.getElementById('meal-details-section');
     mealDetailsSection.innerHTML = ``;
 
